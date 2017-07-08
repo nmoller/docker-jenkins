@@ -1,5 +1,5 @@
 FROM jenkins
- 
+# http://container-solutions.com/running-docker-in-jenkins-in-docker/
 USER root
 RUN apt-get update \
       && apt-get install -y sudo \
