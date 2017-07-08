@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM phusion/baseimage
 
 RUN apt-get update -qq && apt-get install -qqy \
     apt-transport-https \
